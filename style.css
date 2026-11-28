@@ -1,22 +1,38 @@
 #navbar{
     background-color :#DFD3A5;
     height: 50px;
+    width : 100%;
     display : flex;
     align-items:center;
     justify-content: space-around;
 }
-#front{
+/*#front{
     background-color : #3C441B;
     height : 150px;
     width : 100%;
+
     position : relative;
-    border : 5px solid #3C441B;
-    background-image:url("https://www.gecbuxar.ac.in/wp-content/uploads/sites/3/2026/10/file_6ad1c4cf67c05-scaled.jpeg");
-    background-size:100% 100%;
+    border : 5px solid #dbe4b6;
+    background-image:url ("image/b2.jpeg");
+    
+    background-position: center;
     background-repeat:no-repeat;
 
+}*/
+#front {
+    background-color: #3C441B;
+    height: 200px;
+    width: 100%;
+
+    position: relative;
+    border: 5px solid #dbe4b6;
+
+    background-image: url("image/b2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#front img{
+/*#front img{
     height : 100px;
     width : 100px;
     position : absolute;
@@ -25,9 +41,21 @@
     border-radius : 50%;
     object-fit : cover;
     box-shadow : 3px 4px 8px 3px #9DA360;
+}*/ 
+#front img {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    border-radius: 50%;
+
+    object-fit: co;
+    box-shadow: 0px 0px 10px #9DA360;
 }
 h1{
-    margin-top : 5px;
+    margin-top : 30px;
     padding-top : 15px;
     font-size : 35px;
     color : white;
@@ -38,7 +66,6 @@ h6{
     margin-top:8px;
     font-size:25px;
     color : white;
-    text-align : bottom;
     text-align : center;
 }
 .footer-content{
