@@ -1,0 +1,42 @@
+/* OBJECTIVES SECTION */
+.about-Objectives {
+    padding: 60px 8%;
+    background-color: #e8dcc5;
+    text-align: center;
+}
+
+.about-Objectives h2 {
+    color: #454b35;
+    margin-bottom: 40px;
+}
+
+/* CONTAINER OF ALL CARDS */
+.objective-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+    width: 100%;
+}
+
+/* INDIVIDUAL CARDS */
+.objective-card {
+    background-color: #a3ae91;
+    flex: 1;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+/* CARD HEADING */
+.objective-card h3 {
+    color: #454b35;
+    margin-bottom: 15px;
+}
+
+/* CARD PARAGRAPH */
+.objective-card p {
+    color: #454b35;
+    line-height: 1.6;
+}
